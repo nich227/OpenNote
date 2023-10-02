@@ -10,3 +10,20 @@ The idea behind this project is sort of like a sleeper PC build; where the compu
 
 ## Technical info
 Built in NetBeans 9.0 with JDK 11
+
+## Installation
+1. Clone the repository by running the following command
+> git clone https://github.com/nich227/OpenNote.git
+2. Change directory to the repository folder
+> cd OpenNote
+3. Compile the Java source code using the following command:
+> javac -d build\classes src\opennote\*.java
+4. Run the Java application
+> java -cp build/classes opennote.OpenNote
+
+## Installation Using NetBeans
+1. Clone the repository by running the following command
+> git clone https://github.com/nich227/OpenNote.git
+2. Launch NetBeans
+3. Click "Open Project", navigate to the project folder, click "Open Project"
+4. Click "Run Project" in the top bar (green play button)
